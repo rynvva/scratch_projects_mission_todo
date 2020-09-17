@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(50, 50, 50);
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+}
+
+.content-container {
+    border-radius: 20px;
+    height: calc(100vh - 80px);
+    max-width: 450px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.top-banner {
+    align-items: center;
+    background-color: crimson;
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    width: 100%;
+}
+
+.top-banner-text {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24pt;
+}
+
+.scroller {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - (80px + 80px));
+    max-width: 600px;
+    overflow: scroll;
+    width: 100%;
+}
+
+.list-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    flex: 1;
+}
+
+.list-item a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
